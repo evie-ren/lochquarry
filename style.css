@@ -1,0 +1,102 @@
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #b4d1f7;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #7498b8;
+  border-radius: 20px;
+  border: 2px solid #b4d1f7;
+}
+
+body{
+  background-color: #FFFEF2;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 100%;
+    border-bottom-style: dotted;
+  }
+
+  .header img {
+    height: 150px;
+  }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  background-color: #bba48c;
+  width: 100%;
+  height: 300px;
+}
+
+.FooterTile {
+  color: #c90888;
+  font-weight: 800;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  border-bottom-style: solid;
+  border-width: 1.5px;
+  border-color: #7498b8;
+}
+
+.footer a{
+  color: black;
+  text-decoration: none;
+}
+
+.footer a:hover{
+background-color: #7498b8;
+color: white;
+}
+
+.reviews{
+  font-family: fantasy;
+  width: 100%;
+  border-bottom-style: dotted;
+}
+
+.ReviewWords{
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.ReviewWords p {
+  vertical-align: top;
+  display: inline-block;
+  padding: 14px;
+  margin: 14px;
+  text-wrap: wrap;
+  width: 20%;
+  background-color: #f1e8de;
+  border-radius: 10px;
+}
+
+.Star
+{
+  vertical-align: top;
+  display: inline-block;
+  padding: 14px;
+  margin: 0 14px;
+  text-wrap: wrap;
+  width: 100%;
+  background-color: #f1e8de;
+  border-radius: 10px;
+}
+
+
+.TextCenter{
+  text-align: center;
+}
