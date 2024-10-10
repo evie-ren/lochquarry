@@ -84,8 +84,7 @@ color: white;
   border-radius: 10px;
 }
 
-.Star
-{
+.Star{
   vertical-align: top;
   display: inline-block;
   padding: 14px;
@@ -99,4 +98,37 @@ color: white;
 
 .TextCenter{
   text-align: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+}
+
+.responsive{
+  width: 100%;
+  height: auto;
+}
+
+.hover-rope::after {
+  content: "Rope activities: Climbing; Abseiling; Pole Climbing";
+  position:absolute;
+  justify-content: center;
+  font-size: x-large;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.hover-rope:hover::after {
+  visibility: visible;
+  opacity: 1;
 }
