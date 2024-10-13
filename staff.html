@@ -5,16 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="style.css">
+    <script src="team.js"></script>
 </head>
 <body>
     <a href="index.html">
         <div class="header">
-            <img src="assets/logo.png" alt="banner">
-            <img src="assets/banner-text.png" alt="banner">
-            <img src="assets/banner-slogan.png" alt="banner">
+            <img src="assets/logo.png" alt="banner"/>
+            <img src="assets/banner-text.png" alt="banner"/>
+            <img src="assets/banner-slogan.png" alt="banner"/>
         </div>
     </a>
-    <div class="content"></div>
+
+    <div class="content">
+        <img src="assets/team.jpg" alt="team">
+
+        <div class="TeamContainer" style="background-color: lavender;">
+            <div class="team">
+                <h1 id="team-name"></h1>
+                <img id="team-image" src="assets/ClaireJack.png" alt="team member"/>
+                <h3 id="team-position"></h3>
+                <p id="team-responsibility"></p>
+                <p id="team-favorite"></p>
+    
+                <button onclick="nextPerson();" style="background-color:#c90889be;max-width: 50px;"> →</button>
+            </div>
+        </div>
+    </div>
+
     <div class="reviews">
         <p class="TextCenter">What Our Customers Say</p>
         <p class="Star">5 ★★★★★</p>
@@ -29,10 +46,11 @@
             <p>"The kids had a ball and didn't want to leave"--Mr Evans, PE teacher</p>
         </div>
     </div>
+
     <div class="footer">
         <div>
             <p class="FooterTile">Contact Information</p>
-            <p>0141 000 0000</p>
+            <p>01475 229 8311</p>
             <p>hello@lochquarry.co.uk</p>
         </div>
         <div>
